@@ -1,0 +1,248 @@
+.Newton{
+	height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.New{
+	height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.free p{
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+
+}
+
+.free ul{
+	
+}
+
+#sidebar-wrapper hr{
+	
+}
+
+#mynavbar-content{
+	border-bottom: 1px solid lightgrey;
+}
+
+.nav>li>a{
+	padding-left: 20px;
+    margin-right: 15px;
+    border-left: 1px solid lightgrey;
+}
+
+
+
+
+.sidebar-nav{
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.sidebar-nav>li>a{
+	color: white
+	
+}
+
+.free ul{
+	margin-left: 10px;
+}
+
+.lean{
+	background-color: whitesmoke;
+}
+
+.table{
+	background-color: white;
+}
+
+
+.ball{
+	color: white;
+}
+
+.apple > a{
+	color: grey;
+}
+
+.baller{
+background-color:  rgb(249, 196, 3);
+}
+
+.bat{
+color: rgb(0, 157, 255);
+}
+
+.bet{
+color: red;
+}
+
+.but{
+color: rgb(44, 218, 44);
+}
+
+.free{
+	background-color: rgb(56, 56, 56);
+	height: 1080px;
+}
+
+.start{
+	padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+.lost ul{
+	word-spacing: 25px;
+	list-style: none;
+	padding-left: 0px;
+	
+}
+
+#stacked {
+	min-height: 250px;
+}
+
+#pie-chart4{
+	min-height: 250px;
+	padding-bottom: 30px;
+
+}
+
+#pie-chart5{
+	min-height: 250px;
+	padding-bottom: 30px;
+
+}
+
+#pie-chart6{
+	min-height: 250px;
+	padding-bottom: 30px;
+
+}
+
+.enable tr{
+	background-color: black;
+}	
+
+
+.face{
+	float: left;
+	padding-left: 5px;
+
+}
+
+
+.mine{
+	background-color: #4f4f8a;
+	color: white;
+	width: 100%;
+}
+
+.me{
+	background-color: #41c0e6;
+	color: white;
+	margin-top: 10px;
+	width: 100%;
+
+}
+
+.am{
+	margin-top: 10px;
+	width: 100%;
+}
+
+.add {
+	background-color: rgba(9, 132, 9, 0.7);
+	color: white;
+}
+
+.four h1{
+	font-size: 20px;
+}
+
+.inner{
+	width: 100%;
+}
+
+.contend{
+	margin-bottom: 20px;
+}
+
+.lady{
+	margin-left: 195px;
+	background-color: white;
+	color: grey;
+	border: 1px solid lightgrey;
+	border-radius: 1.25em;
+}
+
+.lad{
+	background-color: white;
+	color: grey;
+	border: 1px solid lightgrey;
+	border-radius: 1.25em;
+	margin-left: 162px;
+}
+
+
+.late{
+	border-radius: 20px;
+}
+
+.made{
+	padding-top: 25px;
+    word-spacing: 10px;
+}
+
+.tie{
+-webkit-text-fill-color: limegreen;
+}
+
+.tutu{
+background-color: rgb(144, 144, 144);
+color: white;
+}
+
+th {
+    
+    background-color: grey;
+    color: white;
+
+ }
+
+.can{
+	border-top: 1px solid lightgrey;
+	background-color: whitesmoke;
+}
+
+.total{
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.active{
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.four{
+	background-color: whitesmoke;
+}
+
+.long{
+	background-color: whitesmoke;
+}
+
+.glow{
+    padding-top: 7px;
+}
+
+
+

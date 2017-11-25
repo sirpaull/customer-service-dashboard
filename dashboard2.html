@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Dashboard</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="morris.js-0.5.1/morris.css">
+
+
+				 <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/
+			➥3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/
+			➥1.4.2/respond.min.js"></script>
+			<![endif]-->
+</head>
+<body>	
+	<div id="wrapper">
+		<div id="sidebar-wrapper">
+			<div class="col-xs-2 free">
+				<div>
+					<img src="234.JPG" class="Newton">
+					<p>Newton Barley</p>
+				</div>
+
+				<hr>
+
+				<ul class="sidebar-nav">
+					<div class="two">
+						
+						<li><span class="apple"><a href="#">Main</a></span></li>
+								
+						<li><i class="fa fa-home ball"></i>&nbsp &nbsp<a href="#">HOME</a></li>
+								
+						<li><i class="fa fa-briefcase ball"></i>&nbsp &nbsp<a href="#">JOBS</a></li>
+								
+						<li><i class="fa fa-file ball"></i>&nbsp &nbsp<a href="#">RESUMES</a></li>
+								
+						<li><i class="fa fa-list-alt ball"></i>&nbsp &nbsp<a href="#">TASK</a></li>
+								
+						<li><i class="fa fa-table ball"></i>&nbsp &nbsp<a href="#">CALENDER</a></li>
+					</div>
+					
+					<hr>
+
+					<div class="three">
+						<li><span class="apple"><a href="#">Admin</a></span></li>
+						<li><i class="fa fa-users ball"></i>&nbsp &nbsp<a href="#">USERS</a></li>
+						<li><i class="fa fa-map-marker ball"></i>&nbsp &nbsp<a href="#">LOCATIONS</a></li>
+						<li><i class="fa fa-sitemap ball"></i>&nbsp &nbsp<a href="#">WORKFLOWS</a></li>
+						<li><i class="fa fa-fax ball"></i>&nbsp &nbsp<a href="#">JOBBOARDS</a></li>
+						<li><i class="fa fa-cogs ball"></i>&nbsp &nbsp<a href="#">SOCIAL</a></li>
+					</div>
+
+						<hr>
+
+					<div class="one">	
+						<li><span class="apple"><a href="#">Categories</a></span></li>
+						<li><i class="fa fa-check-square-o baller"></i>&nbsp &nbsp<a href="#">Administrative</a></li>
+						<li><i class="fa fa-square bat"></i>&nbsp &nbsp<a href="#">Design</a></li>
+						<li><i class="fa fa-square bet"></i>&nbsp &nbsp<a href="#">Executive</a></li>
+						<li><i class="fa fa-square but"></i>&nbsp &nbsp<a href="#">Human Resources</a></li>	
+					</div>										
+				</ul>
+			</div>
+
+
+				<div class="col-xs-10 start">
+						<nav class="navbar space">
+							
+								<div class="navbar-header">
+									<span class="glyphicon glyphicon-triangle-left glow">
+									<span class="glyphicon glyphicon-menu-hamburger glow">&nbsp &nbsp<span class="it"><i class="fa fa-search"></i><span class="open">Search for job, task or resume</span></span></span></span>
+											
+								</div>
+							
+
+
+								<div class="collapse navbar-collapse" id="mynavbar-content">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href=""><i class="fa fa-user-plus"></i></a></li>
+					       				<li><a href=""><span class="glyphicon glyphicon-list-alt"></span></a></li>
+					       				<li><a href=""><span class="glyphicon glyphicon-th"></span></a></li>
+							        	       
+							          </ul>
+										
+								</div>
+						
+							
+						</nav>
+						
+
+			       	<div class="done">
+			        	<div class="col-xs-9 sum">
+			        		<div class="San">
+			        			<h1>Customer Service Representative</h1>
+				        			<p><i class="fa fa-location">San Francisco, CA</i><a href=""> - Preview this Post</a></p>
+				       		</div>
+				        		<br>
+
+				       		<div class="lost">
+				        		<ul>
+				       				<li>SUMMARY APPLICANTS JOBBOARD INTERVIEWS ACTIVITY BROADCAST NOTIFICATION</li>			        				
+				        		</ul>
+				        			
+				       		</div>
+				       	</div>
+				   
+				        <div class="col-xs-3 made">
+				        	<button type="button" class="btn btn-default late"><i class="fa fa-circle tie"></i> &nbsp<span class="opd">open</span></button>
+				        	<button type="button" class="btn btn-default late"><i class="fa fa-bookmark-o"></i></button>
+				        	<button type="button" class="btn btn-default late"><i class="fa fa-pencil"></i></button>	
+				        	<button type="button" class="btn btn-default late"><i class="fa fa-trash-o"></i></button>	
+				        </div>		   	    
+			      
+
+			        <div class="col-xs-12 can">
+			        	<div class="container-fluid">
+					       	<div class="col-xs-6 ">
+					       		
+						       		<div class="col-xs-4 zee" id="pie-chart4">
+						       		</div>
+
+						       		<div class="col-xs-4 zuu" id="pie-chart5">
+						       		</div>
+
+						       		<div class="col-xs-4 zee" id="pie-chart6">					       			
+						       		</div>
+
+						       		<label class="label label-default lad">TOTALS-Out of 5,231 views</label>
+						       	
+    						</div>
+    					
+
+    					
+
+					     	<div class="col-xs-6 active">
+						       	<div id="stacked"></div>
+						       		<label class="label label-default lady">APPLICANTS/DAY</label>
+						       	</div>
+						   	</div>
+						</div>
+					
+
+					   	
+						    <div class="col-xs-8 lean">
+							    <table class="table">
+						        	<tr>
+							       		<th>JOB DESCRIPTION</th>
+
+							        	<th><button type="button" class="btn btn-default tutu"><span class="glyphicon glyphicon-pencil pen">&nbspEDIT</span></button></th>
+							        </tr>
+
+							       	<tr>
+							       		<td>POSITION TITLE</td>
+							   			<td>Customer Service Representative</td>
+						      		</tr>
+
+					        		<tr>
+					        				<td>LOCATION</td>
+							    			<td>San Francisco,CA</td>
+							       	</tr>
+
+							      	<tr>
+							        		<td>EMPLOYMENT TYPE</td>
+							        		<td>Full-time</td>
+							       	</tr>
+
+							       	<tr>
+							        		<td>EXPERIENCE</td>
+							        		<td>Mid-level</td>
+							       	</tr>
+
+							       	<tr>
+							        		<td>STATUS</td>
+							        		<td>Open</td>
+							       	</tr>
+
+							      	<tr>
+							        		<td>DESCRIPTION</td>
+							        		<td>The Customer Service Representative is responsible for interacting with and providing assistance for all radical customers,responsible for keeping up-to-date on the various product-shizle;helping the bidness reduce customer service wait times while doing a back-hand spring and eating a ham sandwich.</td>
+							        </tr>
+
+							        <tr>
+							        		<td>HIRING LEAD</td>
+							        		<td>Tom Treezy</td>
+							    	</tr>
+
+							        <tr>
+							        		<td>APPROVED SALARY</td>
+							        		<td>$58,000</td>
+							       	</tr>
+							    </table>							        		
+							</div>
+								
+
+					    	<div class="col-xs-4 four">
+					    		<div>
+					    			<button class="btn btn-sm mine"><i class="fa fa-facebook face"></i><span class="fine"> Post to Facebook</span></button>
+					    		</div>
+
+					    		<div>
+					    			<button class="btn btn-sm me"><i class="fa fa-twitter face"></i><span class="fine"> Tweet this Job</span></button>
+					    		</div>
+
+					    		<div>
+					    			<button class="btn btn-primary btn-sm am"><i class="fa fa-linkedin face"></i><span class="fine"> Post to Linkedin</span></button>
+					    		</div>
+
+					    		<div>
+					    			<h1>Link to this Job</h1>
+					    			<p>Lorem ipsum dolor sit amet, consecteur adipis cing elit. Integer mollis neque eget vestibpend.</p>
+
+					    		</div>
+
+					    		<div class="input-group">
+									  <input type="text" class="form-control" placeholder="search Startup by name or ind" aria-describedby="basic-addon2">
+									  <span class="input-group-addon add" id="basic-addon2 ex">copy</span>
+								</div>
+
+								<div>
+					    			<h1>Use the Button Widget</h1>
+					    			<p>Lorem ipsum dolor sit amet, consecteur adipis cing elit. Integer mollis neque eget vestibpend.</p>
+
+					    		</div>
+
+					    		<div class="input-group">
+									  <input type="text" class="form-control" placeholder="search Startup by name or ind" aria-describedby="basic-addon2">
+									  <span class="input-group-addon add" id="basic-addon2 ex">copy</span>
+								</div>
+
+								<div>
+					    			<h1>Upload Resumes by Email</h1>
+					    			<p>Lorem ipsum dolor sit amet, consecteur adipis cing elit. Integer mollis neque eget vestibpend.</p>
+
+					    		</div>
+
+					    		<div class="input-group inner">
+									  <input type="text" class="form-control" placeholder="search Startup by name or ind" aria-describedby="basic-addon2">
+									  
+								</div>							        		
+							</div>
+					</div>
+				</div>
+			</div>			    			
+   		</div>
+	</div>
+
+
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+ 	<script src="morris.js-0.5.1/raphael.min.js"></script>
+	<script src="morris.js-0.5.1/morris.min.js"></script>
+
+
+	<script>
+		var data = [
+		      { y: 'S', a: 50,  b: 500},
+		      { y: 'M', a: 220, b: 500},
+		      { y: 'T', a: 270, b: 500},
+		      { y: 'W', a: 350, b: 500},
+		      { y: 'T', a: 180,	b: 500},
+		      { y: 'F', a: 220,	b: 500},
+		      { y: 'S', a: 100,	b: 500},
+		      { y: 'S', a: 50,	b: 500},
+		      { y: 'M', a: 350,	b: 500},
+		      { y: 'T', a: 400,	b: 500},
+		      { y: 'W', a: 250,	b: 500},
+		      { y: 'T', a: 230,	b: 500},
+		      { y: 'F', a: 150,	b: 500},
+		      { y: 'S', a: 75,	b: 500},
+		     
+		    ],
+		    config = {
+		      data: data,
+		      xkey: 'y',
+		      ykeys: ['a', 'b'],
+		      
+		      fillOpacity: 0.6,
+		      hideHover: 'auto',
+		      behaveLikeLine: true,
+		      resize: true,
+		      pointFillColors:['#ffffff'],
+		      pointStrokeColors: ['black'],
+		      color:['green']
+		  	   };
+
+			
+			config.element = 'stacked';
+			config.stacked = true;
+			Morris.Bar(config);
+
+			Morris.Donut({
+			  element: 'pie-chart4',
+			  data: [
+			    {label: "Applicant", value: 3154,  color:"lightgreen"}
+			  ]
+			  });
+
+			Morris.Donut({
+			  element: 'pie-chart5',
+			  data: [
+			    {label: "Interviews", value: 1546, color:"lightblue"}
+
+			  ]
+			  });
+
+			Morris.Donut({
+			  element: 'pie-chart6',
+			  data: [
+			    {label: "Forwards", value: 912,  color:"purple"}
+			  ]
+			  });
+
+
+
+
+
+		
+
+
+
+
+
+			
+	</script>
+
+	  
+
+
+</body>
+</html>
